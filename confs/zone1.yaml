@@ -11,7 +11,6 @@ number:
   - platform: template
     name: ${heatpump_number_z1_set_room_temperature}
     id: heatpump_number_z1_set_room_temperature
-    mode: slider
     entity_category: config
     optimistic: true
     min_value: 8
@@ -29,7 +28,6 @@ number:
   - platform: template
     name: ${heatpump_number_z1_set_flow_temperature}
     id: heatpump_number_z1_set_flow_temperature
-    mode: slider
     entity_category: config
     optimistic: true
     min_value: 5
