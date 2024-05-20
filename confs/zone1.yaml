@@ -19,6 +19,7 @@ number:
     step: 0.5
     initial_value: 20
     restore_value: yes
+    mode: box
     unit_of_measurement: °C
     set_action:
       then:
@@ -36,6 +37,7 @@ number:
     step: 0.5
     initial_value: 30
     restore_value: yes
+    mode: box
     unit_of_measurement: °C
     set_action:
       then:
