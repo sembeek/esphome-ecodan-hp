@@ -4,7 +4,6 @@ number:
   - platform: template
     name: ${heatpump_number_set_dhw_temperature}
     id: heatpump_number_set_dhw_temperature
-    mode: slider
     entity_category: config
     optimistic: true
     min_value: 40
