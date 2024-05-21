@@ -28,7 +28,7 @@ number:
   - platform: template
     name: ${heatpump_number_z1_set_flow_temperature}
     id: heatpump_number_z1_set_flow_temperature
-    icon: mdi-home-thermometer
+    icon: mdi:home-thermometer
     entity_category: config
     optimistic: true
     min_value: 5
