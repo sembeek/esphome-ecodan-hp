@@ -34,6 +34,8 @@ switch:
 
   - platform: template
     name: ${heatpump_switch_holiday}
+    lambda: |-
+      return id(status_holiday).state;
     id: heatpump_switch_holiday
     restore_mode: RESTORE_DEFAULT_OFF
     optimistic: true
